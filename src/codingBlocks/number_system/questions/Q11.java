@@ -37,6 +37,7 @@ public class Q11 {
 			col = 1;
 // current row
 			int[] arr = new int[row + 1];
+			
 			if (row == 0) {
 				arr[0] = 1;
 			} else {
