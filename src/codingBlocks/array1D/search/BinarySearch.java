@@ -13,7 +13,7 @@ public class BinarySearch {
 		int lo = 0, hi = arr.length - 1;
 
 		while (lo <= hi) {
-			int mid = lo + hi / 2;
+			int mid = (lo + hi) / 2;
 			if (arr[mid] < item) {
 				lo = mid + 1;
 			} else if (item < arr[mid]) {
